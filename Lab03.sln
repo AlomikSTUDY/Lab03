@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lekcje-2", "Lekcje-2", "{4B930457-2DE0-4DF4-B0BF-26977D20E7BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{2FCB3F35-F82B-4958-9B4A-41BF9459CBB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{2FCB3F35-F82B-4958-9B4A-41BF9459CBB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wykłady c#", "wykłady c#", "{BA0D330C-8B8B-4AF0-A2D0-7EB40FAB9680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programowanie c#", "Programowanie c#\Programowanie c#.csproj", "{1E6CFF24-9781-4D4F-B41F-53F2988B8007}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +27,18 @@ Global
 		{2FCB3F35-F82B-4958-9B4A-41BF9459CBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FCB3F35-F82B-4958-9B4A-41BF9459CBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FCB3F35-F82B-4958-9B4A-41BF9459CBB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E6CFF24-9781-4D4F-B41F-53F2988B8007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E6CFF24-9781-4D4F-B41F-53F2988B8007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E6CFF24-9781-4D4F-B41F-53F2988B8007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E6CFF24-9781-4D4F-B41F-53F2988B8007}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{61F5F303-D196-45D6-9A4E-ADC9BBF35C25} = {4B930457-2DE0-4DF4-B0BF-26977D20E7BE}
 		{2FCB3F35-F82B-4958-9B4A-41BF9459CBB9} = {4B930457-2DE0-4DF4-B0BF-26977D20E7BE}
+		{1E6CFF24-9781-4D4F-B41F-53F2988B8007} = {BA0D330C-8B8B-4AF0-A2D0-7EB40FAB9680}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {750F30A4-EB9F-46DB-85CF-01F7E9FFB221}
