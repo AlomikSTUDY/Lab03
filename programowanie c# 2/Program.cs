@@ -22,9 +22,9 @@
 
 
 
-var x = 0.5;
+//var x = 0.5;
 
-for (double x = 0.0; x < 10.0; x += 0.5; )
-{
-    Console.WriteLine($"{x} - round {Math.Round  }");
-}
+//for (double x = 0.0; x < 10.0; x += 0.5; )
+//{
+//    Console.WriteLine($"{x} - round {Math.Round  }");
+//}

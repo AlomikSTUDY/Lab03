@@ -136,7 +136,7 @@
 /*zdanie 8*/
 
 //int[,] macierz = new int[3, 4];
-
+//wypełnienie danych
 //int liczba = 1;
 //for (int i = 0; i < 3; i++)
 //{
@@ -174,39 +174,18 @@
 
 
 /*koniec zdania 10*/
+
 /*zdanie 11*/
 
-//void PrintConsoleSquare(int x , int y)
-{
-    //rysuj gorna krawedz 
-//    for (int i = 0; i < x; i++)
-//        Console.Write("$");
-    
-    //zejdz do nowej linii
-//    Console.WriteLine();
-    
-    //rysuj srodek (boki)
-//    for (int i = 0; i < y - 2; i++)
-//    {
-//        Console.Write("$");
-        //teraz drukuj puste
-//        for(int j = 0; j < x - 2; j++)
-//        {
-//            Console.Write(" ");
-//        }
-        //rysuj prawy bok
-//        Console.Write("$");
-        //zjedz do nowej linii
-//        Console.WriteLine();
-//    }
-    
-    
-    //rysuj dolna krawedz
-//    for (int i = 0; i < x; i++)
-//        Console.Write("$");
-}
-//PrintConsoleSquare(5, 5);
 
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+/*koniec zdania 11*/
 
 /*zdanie 12*/
 
@@ -234,10 +213,6 @@
 //}
 
 
-
-
-
-
 //        string EvenOrOdd3(int toCheck)
 //{
 //    return toCheck % 2 == 0 ? "even" : "Odd";
@@ -248,11 +223,36 @@
 
 /*zdanie 13*/
 
+//void PrintConsoleSquare(int x , int y)
+{
+    //rysuj gorna krawedz 
+    //    for (int i = 0; i < x; i++)
+    //        Console.Write("$");
+
+    //zejdz do nowej linii
+    //    Console.WriteLine();
+
+    //rysuj srodek (boki)
+    //    for (int i = 0; i < y - 2; i++)
+    //    {
+    //        Console.Write("$");
+    //teraz drukuj puste
+    //        for(int j = 0; j < x - 2; j++)
+    //        {
+    //            Console.Write(" ");
+    //        }
+    //rysuj prawy bok
+    //        Console.Write("$");
+    //zjedz do nowej linii
+    //        Console.WriteLine();
+    //    }
 
 
-
-
-
+    //rysuj dolna krawedz
+    //    for (int i = 0; i < x; i++)
+    //        Console.Write("$");
+}
+//PrintConsoleSquare(5, 5);
 /*koniec zdania 13*/
 
 
@@ -263,6 +263,56 @@
 
 
 
+
+
+
+
+    static double[] RozwiazanieKwadratowe(double a, double b, double c)
+    {
+        double delta = b * b - 4 * a * c; // Obliczanie delty (b^2 - 4ac)
+
+        if (delta > 0)
+        {
+            // Dwa różne rozwiązania
+            double x1 = (-b - Math.Sqrt(delta)) / (2 * a);
+            double x2 = (-b + Math.Sqrt(delta)) / (2 * a);
+            return new double[] { x1, x2 };
+        }
+        else if (delta == 0)
+        {
+            // Jedno podwójne rozwiązanie
+            double x = -b / (2 * a);
+            return new double[] { x };
+        }
+        else
+        {
+            // Brak rozwiązań rzeczywistych
+            return new double[] { };
+        }
+    }
+
+    static void Main(string[] args)
+    {
+        // Przykład użycia:
+        double a = 1;
+        double b = -3;
+        double c = 2;
+
+        double[] wynik = RozwiazanieKwadratowe(a, b, c);
+
+        if (wynik.Length == 0)
+        {
+            Console.WriteLine("Brak rozwiązań rzeczywistych.");
+        }
+        else
+        {
+            Console.WriteLine("Rozwiązania:");
+            foreach (double x in wynik)
+            {
+                Console.WriteLine(x);
+            }
+        }
+    }
 
 
 /*koniec zdania 14*/
