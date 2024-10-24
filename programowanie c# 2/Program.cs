@@ -7,11 +7,24 @@
 
 //Console.WriteLine(0.3);
 
-var x = 0.1f;
+//var precision = 3;
+//var x = 0.1;
+//var suma = 0.0;
 
-var suma = 0.0f;
+//for (int i = 0; i < 1_000_000; i++)
+//{
+//    suma += x;
+//    suma = Math.Round(suma, precision);
+//}
 
-for (int i = 0; i < 10_000_000; i++)
+//Console.WriteLine(suma);
+
+
+
+
+var x = 0.5;
+
+for (double x = 0.0; x < 10.0; x += 0.5; )
 {
-    suma += x;
+    Console.WriteLine($"{x} - round {Math.Round  }");
 }

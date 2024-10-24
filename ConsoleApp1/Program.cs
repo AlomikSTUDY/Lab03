@@ -176,36 +176,36 @@
 /*koniec zdania 10*/
 /*zdanie 11*/
 
-void PrintConsoleSquare(int x , int y)
+//void PrintConsoleSquare(int x , int y)
 {
     //rysuj gorna krawedz 
-    for (int i = 0; i < x; i++)
-        Console.Write("$");
+//    for (int i = 0; i < x; i++)
+//        Console.Write("$");
     
     //zejdz do nowej linii
-    Console.WriteLine();
+//    Console.WriteLine();
     
     //rysuj srodek (boki)
-    for (int i = 0; i < y - 2; i++)
-    {
-        Console.Write("$");
+//    for (int i = 0; i < y - 2; i++)
+//    {
+//        Console.Write("$");
         //teraz drukuj puste
-        for(int j = 0; j < x - 2; j++)
-        {
-            Console.Write(" ");
-        }
+//        for(int j = 0; j < x - 2; j++)
+//        {
+//            Console.Write(" ");
+//        }
         //rysuj prawy bok
-        Console.Write("$");
+//        Console.Write("$");
         //zjedz do nowej linii
-        Console.WriteLine();
-    }
+//        Console.WriteLine();
+//    }
     
     
     //rysuj dolna krawedz
-    for (int i = 0; i < x; i++)
-        Console.Write("$");
+//    for (int i = 0; i < x; i++)
+//        Console.Write("$");
 }
-PrintConsoleSquare(5, 5);
+//PrintConsoleSquare(5, 5);
 
 
 /*zdanie 12*/
@@ -248,6 +248,24 @@ PrintConsoleSquare(5, 5);
 
 /*zdanie 13*/
 
+
+
+
+
+
+/*koniec zdania 13*/
+
+
+
+
+/*zdanie 14*/
+
+
+
+
+
+
+/*koniec zdania 14*/
 
 
 
