@@ -192,10 +192,10 @@ void PrintConsoleSquare(int x , int y)
         //teraz drukuj puste
         for(int j = 0; j < x - 2; j++)
         {
-            Console.WriteLine(" ");
+            Console.Write(" ");
         }
         //rysuj prawy bok
-        Console.WriteLine("$");
+        Console.Write("$");
         //zjedz do nowej linii
         Console.WriteLine();
     }
@@ -245,6 +245,8 @@ PrintConsoleSquare(5, 5);
 
 /* koniec zdania 12*/
 
+
+/*zdanie 13*/
 
 
 
