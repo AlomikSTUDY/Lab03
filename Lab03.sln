@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab02", "ConsoleApp2\Lab02.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wykłady c#", "wykłady c#", "{BA0D330C-8B8B-4AF0-A2D0-7EB40FAB9680}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programowanie c#", "Programowanie c#\Programowanie c#.csproj", "{1E6CFF24-9781-4D4F-B41F-53F2988B8007}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Programowanie c#", "Programowanie c#\Programowanie c#.csproj", "{1E6CFF24-9781-4D4F-B41F-53F2988B8007}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "programowanie c# 2", "programowanie c# 2\programowanie c# 2.csproj", "{D72C6AF4-F7F4-48BB-83F8-CAF39CB837BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "programowanie c# 2", "programowanie c# 2\programowanie c# 2.csproj", "{D72C6AF4-F7F4-48BB-83F8-CAF39CB837BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "programowanie c# 3", "programowanie c# 3\programowanie c# 3.csproj", "{784A27CE-03DF-445F-8C26-C903FBF19F55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{D72C6AF4-F7F4-48BB-83F8-CAF39CB837BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D72C6AF4-F7F4-48BB-83F8-CAF39CB837BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D72C6AF4-F7F4-48BB-83F8-CAF39CB837BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{784A27CE-03DF-445F-8C26-C903FBF19F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{784A27CE-03DF-445F-8C26-C903FBF19F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{784A27CE-03DF-445F-8C26-C903FBF19F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{784A27CE-03DF-445F-8C26-C903FBF19F55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
