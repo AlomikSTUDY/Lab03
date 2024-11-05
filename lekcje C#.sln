@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Programowanie c#", "Program
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "programowanie c# 2", "programowanie c# 2\programowanie c# 2.csproj", "{D72C6AF4-F7F4-48BB-83F8-CAF39CB837BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "programowanie c# 3", "programowanie c# 3\programowanie c# 3.csproj", "{784A27CE-03DF-445F-8C26-C903FBF19F55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "programowanie c# 3", "programowanie c# 3\programowanie c# 3.csproj", "{784A27CE-03DF-445F-8C26-C903FBF19F55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab04", "Lab04\Lab04.csproj", "{63AB0D61-0A35-4041-BD88-C4EBD15FEA72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{784A27CE-03DF-445F-8C26-C903FBF19F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{784A27CE-03DF-445F-8C26-C903FBF19F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{784A27CE-03DF-445F-8C26-C903FBF19F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63AB0D61-0A35-4041-BD88-C4EBD15FEA72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63AB0D61-0A35-4041-BD88-C4EBD15FEA72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63AB0D61-0A35-4041-BD88-C4EBD15FEA72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63AB0D61-0A35-4041-BD88-C4EBD15FEA72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +57,7 @@ Global
 		{61F5F303-D196-45D6-9A4E-ADC9BBF35C25} = {4B930457-2DE0-4DF4-B0BF-26977D20E7BE}
 		{2FCB3F35-F82B-4958-9B4A-41BF9459CBB9} = {4B930457-2DE0-4DF4-B0BF-26977D20E7BE}
 		{1E6CFF24-9781-4D4F-B41F-53F2988B8007} = {BA0D330C-8B8B-4AF0-A2D0-7EB40FAB9680}
+		{63AB0D61-0A35-4041-BD88-C4EBD15FEA72} = {4B930457-2DE0-4DF4-B0BF-26977D20E7BE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {750F30A4-EB9F-46DB-85CF-01F7E9FFB221}

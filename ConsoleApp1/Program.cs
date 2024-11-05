@@ -267,52 +267,52 @@
 
 
 
-    static double[] RozwiazanieKwadratowe(double a, double b, double c)
-    {
-        double delta = b * b - 4 * a * c; // Obliczanie delty (b^2 - 4ac)
-
-        if (delta > 0)
-        {
-            // Dwa różne rozwiązania
-            double x1 = (-b - Math.Sqrt(delta)) / (2 * a);
-            double x2 = (-b + Math.Sqrt(delta)) / (2 * a);
-            return new double[] { x1, x2 };
-        }
-        else if (delta == 0)
-        {
-            // Jedno podwójne rozwiązanie
-            double x = -b / (2 * a);
-            return new double[] { x };
-        }
-        else
-        {
+   // static double[] RozwiazanieKwadratowe(double a, double b, double c)
+   // {
+   //     double delta = b * b - 4 * a * c; // Obliczanie delty (b^2 - 4ac)
+//
+//        if (delta > 0)
+//        {
+//            // Dwa różne rozwiązania
+//            double x1 = (-b - Math.Sqrt(delta)) / (2 * a);
+//            double x2 = (-b + Math.Sqrt(delta)) / (2 * a);
+//            return new double[] { x1, x2 };
+//        }
+//        else if (delta == 0)
+//        {
+//            // Jedno podwójne rozwiązanie
+//            double x = -b / (2 * a);
+//            return new double[] { x };
+//        }
+//        else
+//        {
             // Brak rozwiązań rzeczywistych
-            return new double[] { };
-        }
-    }
+//            return new double[] { };
+//        }
+//    }
 
-    static void Main(string[] args)
-    {
-        // Przykład użycia:
-        double a = 1;
-        double b = -3;
-        double c = 2;
+//    static void Main(string[] args)
+//    {
+//        // Przykład użycia:
+//        double a = 1;
+//        double b = -3;
+//        double c = 2;
 
-        double[] wynik = RozwiazanieKwadratowe(a, b, c);
+//        double[] wynik = RozwiazanieKwadratowe(a, b, c);
 
-        if (wynik.Length == 0)
-        {
-            Console.WriteLine("Brak rozwiązań rzeczywistych.");
-        }
-        else
-        {
-            Console.WriteLine("Rozwiązania:");
-            foreach (double x in wynik)
-            {
-                Console.WriteLine(x);
-            }
-        }
-    }
+//        if (wynik.Length == 0)
+//        {
+//            Console.WriteLine("Brak rozwiązań rzeczywistych.");
+//        }
+//        else
+//        {
+//            Console.WriteLine("Rozwiązania:");
+//            foreach (double x in wynik)
+//            {
+//                Console.WriteLine(x);
+//            }
+//        }
+//    }
 
 
 /*koniec zdania 14*/
