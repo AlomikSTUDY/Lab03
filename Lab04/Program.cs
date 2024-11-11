@@ -138,39 +138,39 @@
 //zdanie 6//
 
 
-using System;
-using System.Data;
+//using System;
+//using System.Data;
 
-static void Main(string[] args)
-{
-    static double Divide(double a , double b)
-    {
-        if(b == 0.0)
-            throw new DivideByZeroException("b = 0.0 :(");
-    }
+//static void Main(string[] args)
+//{
+//    static double Divide(double a , double b)
+//    {
+//        if(b == 0.0)
+//            throw new DivideByZeroException("b = 0.0 :(");
+//    }
 
-    static double DivideSafe(double a, double b)
-    {
+//    static double DivideSafe(double a, double b)
+//    {
 
-        double result;
-        try
-        {
-            result = DivideSafe(a, b);
+//        double result;
+//        try
+//        {
+//            result = DivideSafe(a, b);
 
-        }
+//        }
 
-        catch (DivideByZeroException ex)
-        {
-            result = 0.0;
-        }
-
-
-        return result;
-    }
+//        catch (DivideByZeroException ex)
+//        {
+//            result = 0.0;
+//        }
 
 
+//        return result;
+//    }
 
-}
+
+
+//}
 
 
 
