@@ -28,10 +28,10 @@
 //        double y = 20;
 //        Swap(ref x, ref y);
 //        Console.WriteLine($"x = {x}, y = {y}");
-
-
+//
+//
 //    }
-
+//
 //}
 
 //koniec zdania 2//
@@ -181,18 +181,18 @@
 // zdanie 7 //
 
 
-static void SetYourNewPassword(string password)
-{
-    if (password == "" )
-        throw new ArgumentNullException("Empty password");
+//static void SetYourNewPassword(string password)
+//{
+//    if (password == "" )
+//        throw new ArgumentNullException("Empty password");
 
-    bool strongPassword = true;
+//    bool strongPassword = true;
 
-    if (password.Contains())
+//    if (password.Contains())
 
-        if (strongPassword)
-            throw new FormatException("too weak password");
-}
+//        if (strongPassword)
+//            throw new FormatException("too weak password");
+//}
 
 
 

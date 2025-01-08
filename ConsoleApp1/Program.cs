@@ -35,12 +35,12 @@
 //int n = 1;
 //while (n <= 100)
 //{
-//    if (n % 1 == 0)
-//    {
-//        Console.WriteLine($"od 1 do 100: {n} ");
-//
-//    }
-//    n++;
+//if (n % 1 == 0)
+//{
+//Console.WriteLine($"od 1 do 100: {n} ");
+
+//}
+//n++;
 //}
 
 

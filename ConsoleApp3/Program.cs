@@ -52,33 +52,82 @@
 
 
 
-using System;
+//using System;
 
-class Program
-{
-    static void Main()
-    {
-        Console.Write("Введите число: ");
+//class Program
+//{
+//    static void Main()
+//    {
+//        Console.Write("Введите число: ");
 
-        // Читаем ввод пользователя и преобразуем в целое число
-        string input = Console.ReadLine();
+//        // Читаем ввод пользователя и преобразуем в целое число
+//        string input = Console.ReadLine();
 
-        // Проверка, удалось ли преобразовать ввод в целое число
-        if (int.TryParse(input, out int number))
-        {
-            // Проверка на четность
-            if (number % 2 == 0)
-            {
-                Console.WriteLine($"{number} — четное число.");
-            }
-            else
-            {
-                Console.WriteLine($"{number} — нечетное число.");
-            }
-        }
-        else
-        {
-            Console.WriteLine("Ошибка: введено не число.");
-        }
-    }
-}
+//        // Проверка, удалось ли преобразовать ввод в целое число
+//        if (int.TryParse(input, out int number))
+//        {
+//            // Проверка на четность
+//            if (number % 2 == 0)
+//            {
+//                Console.WriteLine($"{number} — четное число.");
+//            }
+//            else
+//            {
+//                Console.WriteLine($"{number} — нечетное число.");
+//            }
+//        }
+//        else
+//        {
+//            Console.WriteLine("Ошибка: введено не число.");
+//        }
+//    }
+//}
+
+
+//using System.Reflection.Metadata.Ecma335;
+
+//static double QuadraticEquation(double x = 0, double a = 1, double b = 1, double c= 1)
+//{
+//    return x*x*a + x*b + c;
+//}
+
+
+
+
+//int n = 1;
+//while (n >= 100)
+//if ( n == 100)
+//    {
+//        Console.WriteLine("100");
+//    }
+//Console.ReadLine();
+
+//using System;
+
+//string[] numbers = [Console.ReadLine()];
+// foreach (string number in numbers)
+//{   
+//    Console.Write($"{number} ");
+//}
+
+
+//using System;
+//using System.Linq;
+//public class Kata
+//{
+//    public static int FindSmallestInt(int[] args)
+//    {
+//        int min = args[0];
+//        for (int i = 1; i < args.Length; i++)
+//        {
+//            if (min >= args[i])
+//            {
+//                min = args[i];
+//            }
+//        }
+//        return min;
+//    }
+//}
+
+
+
